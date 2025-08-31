@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url(https://i.pinimg.com/1200x/e9/c2/5f/e9c25f2e081f2a128db22fb4d52902fc.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: url(https://png.pngtree.com/background/20250107/original/pngtree-blue-background-images-browse-photos-vectors-and-video-picture-image_12914893.jpg);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 340px;
+  text-align: center;
+}
+
+.student{
+  color: cornsilk;
+}
+
+p{
+  line-height: 35px;   
+}
+ 
+h2 {
+  margin-bottom: 15px;
+  color:lawngreen;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+ 
+button {
+font-size: 15px;
+padding: 15px 50px;
+color: rgb(194, 251, 233);
+border: 2px solid #0ff;
+border-radius: 8px;
+cursor: pointer;
+position: relative;
+background: linear-gradient(145deg, #ff0077, #7a00ff);
+box-shadow: 2px 2px 0 #5a0055, 3px 3px 5px #555;
+transition: all 0.2s ease-in-out;
+}
+ 
+.popup {
+  background:transparent;
+  padding: 40px;
+  text-align: center;
+  color: chartreuse;
+}
+
+ @media (min-width: 420px) and (max-width: 676px) {
+      .container {
+        max-width: 90%; 
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+      
+       p {
+        font-size: 0.95rem;
+      }
+
+      label {
+        font-size: 0.9rem;
+      }
+
+      input[type="date"],input, select, button {
+        padding: 8px;
+        font-size: 0.9rem;
+        }
+      }     
